@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Let Us Decide</title>
+    <script src="js/angular.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+  </head>
+  <body>
+    <h1>Let us decide for you!</h1>
+
+    <a ui-sref="home">home</a>
+    <a ui-sref="signin">sign in</a>
+    <a ui-sref="board">board</a>
+
+    <hr>
+
+    <ui-view>
+    </ui-view>
+
+    <!-- Angular Material Library -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="components/home-component/HomeController.js"></script>
+    <script src="components/board-component/BoardController.js"></script>
+    <script src="js/config.js"></script>
+
+  </body>
+</html>
