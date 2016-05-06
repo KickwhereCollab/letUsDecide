@@ -1,0 +1,22 @@
+{
+  "name": "letusdecide",
+  "version": "1.0.0",
+  "description": "We make decisions so you don't have to",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KickwhereCollab/letUsDecide.git"
+  },
+  "author": "Tina Lai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KickwhereCollab/letUsDecide/issues"
+  },
+  "homepage": "https://github.com/KickwhereCollab/letUsDecide#readme",
+  "dependencies": {
+    "firebase": "^2.4.2"
+  }
+}
